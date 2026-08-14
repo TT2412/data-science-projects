@@ -1,0 +1,5 @@
+# 本文件只放"开始使用"时需要的库，用到再装
+# 安装方式：pip install -r requirements.txt
+pandas>=2.0
+numpy>=1.24
+jupyter
