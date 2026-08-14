@@ -2,7 +2,7 @@
 # 运行方式：在终端里执行  python hello.py
 
 # 1. 变量和打印
-name = "深圳大学城乡规划"
+name = "TT2412"
 print("你好，我是", name)
 
 # 2. list 和循环
