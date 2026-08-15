@@ -1,0 +1,12 @@
+# 个人交接文档（含个人信息，禁止推送）
+PLAN.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 密钥
+*.key
+.env
