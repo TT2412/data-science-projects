@@ -22,3 +22,6 @@ Thumbs.db
 *.key
 .env
 config.local.*
+
+# 个人交接文档（含个人信息，禁止推送）
+PLAN.md
