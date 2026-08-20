@@ -5,23 +5,38 @@
 score = 83
 if score >= 60:
     print('及格')
-# TODO: 再加一个 else，让 score < 60 时输出 '不及格'
+else:
+    print('不及格')  # TODO: 再加一个 else，让 score < 60 时输出 '不及格'
 
 # 2. if/elif/else：把均分 83 换算成等级
 # 规则：>=90 优秀，>=80 良好，>=70 中等，>=60 及格，否则 挂科
 gpa_score = 83
-# TODO: 补全 if / elif / else 结构，输出对应等级
+if gpa_score >= 90:
+    print('优秀')
+elif gpa_score >= 80:
+    print('良好')
+elif gpa_score >= 70:
+    print('中等')
+elif gpa_score >= 60:
+    print('及格')
+else:
+    print('挂科')  # TODO: 补全 if / elif / else 结构，输出对应等级
 
 # 3. 条件组合：and 和 or
 age = 21
 is_student = True
 # 打印：是否享受学生折扣（年龄<26 且 是学生）
-# TODO: 用 if 和 and 判断并打印
-# 再判断：是否满足"免票"（年龄<6 或 年龄>65）
+if age<26 and is_student:
+    print('享受学生折扣')  # TODO: 用 if 和 and 判断并打印
+if age<6 or age>65:
+    print('满足免票条件')  # TODO: 再判断：是否满足"免票"（年龄<6 或 年龄>65）
 # TODO
 
 # 4. 挑战：判断平年闰年
 # 规则：能被4整除且不能被100整除，或能被400整除 → 闰年
 year = 2024
-# TODO: 用 if / and / or 实现，输出"闰年"或"平年"
+if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+    print('闰年')  
+else:
+    print('平年')  # TODO: 用 if / and / or 实现，输出"闰年"或"平年"
 # 提示：判断整除用  year % 4 == 0
