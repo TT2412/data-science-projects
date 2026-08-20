@@ -40,3 +40,19 @@ if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
 else:
     print('平年')  # TODO: 用 if / and / or 实现，输出"闰年"或"平年"
 # 提示：判断整除用  year % 4 == 0
+
+# 5. 教程官方作业：BMI 计算（if/elif/else）
+height = 1.75
+weight = 80.5
+bmi = weight / (height ** 2)
+print('BMI =', bmi)
+if bmi < 18.5:
+    print('过轻')
+elif bmi < 25:
+    print('正常')
+elif bmi < 28:
+    print('过重')
+elif bmi < 32:
+    print('肥胖')
+else:
+    print('严重肥胖')
